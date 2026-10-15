@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+</head>
+<body style="background-color: rgb(68, 68, 68);">
+    <div style="position: absolute; left: 35%; top: 30%;">
+        <img src="steamhappy-steam.gif" style="width: 256px; height: 256px; left: 35%; position: absolute;">
+        <div id="ignore-this" style="width: 512px; height: 256px;">
+            <div id="message-box" style="width: 512px; height: 108px; top: 120%; left: 5%; position: absolute; background-color: white; padding-right: 20px; padding-left: 20px; border-radius: 10px; border-color: rgb(212, 173, 0); border-style: solid; border-width: 5px;">
+                <h2 id="m1" style="visibility: visible;"> Hello! I see you are trying to learn something about me.</h2>
+                <h2 id="m2" style="visibility: hidden; margin-top: -85px;"> My name is Lukas. Not Luka or Luke.</h2>
+                <h2 id="m3" style="visibility: hidden; margin-top: -54px;"> This is my first stardance and its really amazing. The same about <a href="https://bash.hackclub.com/">Boba Bash</a></h2>
+                <h2 id="m4" style="visibility: hidden; margin-top: -85px;"> The main project im working on is Webos 2. A <a href="https://stardance.hackclub.com/projects/30933">HamOS</a>.</h2>
+                <h2 id="m5" style="visibility: hidden; margin-top: -87px;"> A Webos about my hamster. Thats why its called HamOS.</h2>
+                <h2 id="m6" style="visibility: hidden; margin-top: -86px;"> It isnt any usual webos. Check it out <a href="https://lkspodmol.github.io/hamos">here</a>!</h2>
+                <h2 id="m7" style="visibility: hidden; margin-top: -54px;"> Back to me.</h2>
+                <h2 id="m8" style="visibility: hidden; margin-top: -52px;"> My nickname is <a href="https://stardance.hackclub.com/@Luksus">Luksus</a>. It means luxury in my language. hehe</h2>
+                <h2 id="m9" style="visibility: hidden; margin-top: -85px;"> Im from Czech Republic and im 16 years old.</h2>
+                <h2 id="m10" style="visibility: hidden; margin-top: -85px;"> Thanks for reading! (I love steam happy)</h2>
+            </div>
+            <div id="b1" style="visibility: visible; width: 48px; height: 48px; position: absolute; cursor: pointer; top: 170%; left: 105.5%;">
+                <img src="button.png" style="width: 48px; height: 48px;">
+            </div>
+            <div id="b2" style="visibility: hidden; width: 48px; height: 48px; position: absolute; cursor: pointer; top: -70%; left: 150%;">
+                <img src="button.png" style="width: 48px; height: 48px;">
+            </div>
+            <div id="b3" style="visibility: hidden; width: 48px; height: 48px; position: absolute; cursor: pointer; top: 185%; left: -55%;">
+                <img src="button.png" style="width: 48px; height: 48px;">
+            </div>
+            <div id="b4" style="visibility: hidden; width: 48px; height: 48px; position: absolute; cursor: pointer; top: 100%; left: -100%;">
+                <img src="button.png" style="width: 48px; height: 48px;">
+            </div>
+            <div id="b5" style="visibility: hidden; width: 48px; height: 48px; position: absolute; cursor: pointer; top: 20%; left: -90%;">
+                <img src="button.png" style="width: 48px; height: 48px;">
+            </div>
+            <div id="b6" style="visibility: hidden; width: 48px; height: 48px; position: absolute; cursor: pointer; top: -50%; left: 135%;">
+                <img src="button.png" style="width: 48px; height: 48px;">
+            </div>
+            <div id="b7" style="visibility: hidden; width: 48px; height: 48px; position: absolute; cursor: pointer; top: 10%; left: 100%;">
+                <img src="button.png" style="width: 48px; height: 48px;">
+            </div>
+            <div id="b8" style="visibility: hidden; width: 48px; height: 48px; position: absolute; cursor: pointer; top: 150%; left: -95%;">
+                <img src="button.png" style="width: 48px; height: 48px;">
+            </div>
+            <div id="b9" style="visibility: hidden; width: 48px; height: 48px; position: absolute; cursor: pointer; top: 135%; left: 145%;">
+                <img src="button.png" style="width: 48px; height: 48px;">
+            </div>
+        </div>
+    </div>
+</body>
+<script>
+var m1 = document.querySelector("#m1");
+var m2 = document.querySelector("#m2");
+var m3 = document.querySelector("#m3");
+var m4 = document.querySelector("#m4");
+var m5 = document.querySelector("#m5");
+var m6 = document.querySelector("#m6");
+var m7 = document.querySelector("#m7");
+var m8 = document.querySelector("#m8");
+var m9 = document.querySelector("#m9");
+var m10 = document.querySelector("#m10");
+var b1 = document.querySelector("#b1");
+var b2 = document.querySelector("#b2");
+var b3 = document.querySelector("#b3");
+var b4 = document.querySelector("#b4");
+var b5 = document.querySelector("#b5");
+var b6 = document.querySelector("#b6");
+var b7 = document.querySelector("#b7");
+var b8 = document.querySelector("#b8");
+var b9 = document.querySelector("#b9");
+
+document.querySelector("#b1").addEventListener("click", function() {
+  m1.style.visibility = "hidden";
+  m2.style.visibility = "visible";
+  b1.style.visibility = "hidden";
+  b2.style.visibility = "visible";
+});
+document.querySelector("#b2").addEventListener("click", function() {
+  m2.style.visibility = "hidden";
+  m3.style.visibility = "visible";
+  b2.style.visibility = "hidden";
+  b3.style.visibility = "visible";
+});
+document.querySelector("#b3").addEventListener("click", function() {
+  m3.style.visibility = "hidden";
+  m4.style.visibility = "visible";
+  b3.style.visibility = "hidden";
+  b4.style.visibility = "visible";
+});
+document.querySelector("#b4").addEventListener("click", function() {
+  m4.style.visibility = "hidden";
+  m5.style.visibility = "visible";
+  b4.style.visibility = "hidden";
+  b5.style.visibility = "visible";
+});
+document.querySelector("#b5").addEventListener("click", function() {
+  m5.style.visibility = "hidden";
+  m6.style.visibility = "visible";
+  b5.style.visibility = "hidden";
+  b6.style.visibility = "visible";
+});
+document.querySelector("#b6").addEventListener("click", function() {
+  m6.style.visibility = "hidden";
+  m7.style.visibility = "visible";
+  b6.style.visibility = "hidden";
+  b7.style.visibility = "visible";
+});
+document.querySelector("#b7").addEventListener("click", function() {
+  m7.style.visibility = "hidden";
+  m8.style.visibility = "visible";
+  b7.style.visibility = "hidden";
+  b8.style.visibility = "visible";
+});
+document.querySelector("#b8").addEventListener("click", function() {
+  m8.style.visibility = "hidden";
+  m9.style.visibility = "visible";
+  b8.style.visibility = "hidden";
+  b9.style.visibility = "visible";
+});
+document.querySelector("#b9").addEventListener("click", function() {
+  m9.style.visibility = "hidden";
+  m10.style.visibility = "visible";
+  b9.style.visibility = "hidden";
+});
+</script>
+</html>
