@@ -69,8 +69,11 @@ var b6 = document.querySelector("#b6");
 var b7 = document.querySelector("#b7");
 var b8 = document.querySelector("#b8");
 var b9 = document.querySelector("#b9");
+const sound = new Audio("./steamhappy.mp3"); // credits: https://www.youtube.com/watch?v=wryFyrDss5A
 
 document.querySelector("#b1").addEventListener("click", function() {
+  sound.play();
+  sound.volume = 0.1;
   m1.style.visibility = "hidden";
   m2.style.visibility = "visible";
   b1.style.visibility = "hidden";
@@ -119,6 +122,7 @@ document.querySelector("#b8").addEventListener("click", function() {
   b9.style.visibility = "visible";
 });
 document.querySelector("#b9").addEventListener("click", function() {
+  sound.pause(); sound.currentTime = 0;
   m9.style.visibility = "hidden";
   m10.style.visibility = "visible";
   b9.style.visibility = "hidden";
